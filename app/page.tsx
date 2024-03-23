@@ -12,10 +12,10 @@ import {
 import { FaInstagram } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import Header from "./Header";
-import riding_map from "./assets/riding_map.png";
 import styles from "./styles.module.css";
-import { Image, Link } from "@chakra-ui/next-js";
+import { Link } from "@chakra-ui/next-js";
 import { InstagramEmbed } from "react-social-media-embed";
+import EventDetails from "./events/EventDetails";
 
 export default function Page() {
   return (
@@ -29,6 +29,8 @@ export default function Page() {
             <Heading fontSize="6xl" color="white">
               We are organizing
             </Heading>
+            <Divider borderColor="#FFF" />
+              <EventDetails />
             <Divider borderColor="#FFF" />
             <Stack align="center" spacing="2rem">
               <Text fontSize="xl" color="white">

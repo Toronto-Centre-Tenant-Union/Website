@@ -1,4 +1,4 @@
-import { Image, Link } from "@chakra-ui/next-js";
+import { Image } from "@chakra-ui/next-js";
 import {
   Center,
   Divider,

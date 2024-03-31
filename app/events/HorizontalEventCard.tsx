@@ -17,12 +17,7 @@ interface EventCardProps {
 export default function HorizontalEventCard({ event }: EventCardProps) {
   console.log(event);
   return (
-    <Card
-      direction="row"
-      variant="outline"
-      background="#1C9E50"
-      overflow="scroll"
-    >
+    <Card direction="row" variant="outline" background="#1C9E50">
       <CardHeader maxW="10rem" background="black">
         <EventCardHeader event={event} />
       </CardHeader>

@@ -18,6 +18,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/water_meeting",
+        destination: "https://forms.gle/SPXewmdCq4YyKXKo7",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

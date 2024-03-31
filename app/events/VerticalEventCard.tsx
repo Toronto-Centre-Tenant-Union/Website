@@ -5,7 +5,7 @@ interface EventCardProps {
   event: GoogleCalendarEvent
 }
 
-export default function EventCard({event}: EventCardProps) {
+export default function VerticalEventCard({event}: EventCardProps) {
   console.log(event)
   return (
     <Card maxW={"25rem"}>

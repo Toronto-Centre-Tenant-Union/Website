@@ -1,25 +1,28 @@
-import { SimpleGrid } from "@chakra-ui/react";
-import { useEffect, useState } from "react"
-import EventCard from "./EventCard";
+import { useEffect, useState } from "react";
+import HorizontalEventCard from "./HorizontalEventCard";
+import { Stack, Text } from "@chakra-ui/react";
 
-export default function EventDetails(){
+export default function EventDetails() {
   const [events, setEvents] = useState([]);
-  
+
   useEffect(() => {
-    const fetchData = async() => {
-      const resp = await fetch('/api/events');
+    const fetchData = async () => {
+      const resp = await fetch("/api/events");
       const data = await resp.json();
       setEvents(data);
-    }
-    fetchData()
-  }, [])
+    };
+    fetchData();
+  }, []);
 
+  if (!events || events.length <= 0) {
+    return <Text>No upcoming events!</Text>;
+  }
 
   return (
-    <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
-      {events.map(event => (
-        <EventCard event ={event}/>
+    <Stack>
+      {events.map((event, idx) => (
+        <HorizontalEventCard key={idx} event={event} />
       ))}
-    </SimpleGrid>
-  )
+    </Stack>
+  );
 }

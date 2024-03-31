@@ -22,18 +22,15 @@ export default function Header() {
       {/* <Heading fontSize='3xl'>Toronto Centre Tenant Union</Heading> */}
       <Stack spacing="0">
         <Heading fontSize="3xl" color="white">
-          Toronto Centre
-        </Heading>
-        <Heading fontSize="3xl" paddingLeft="2rem" color="white">
-          Tenant Union
+          Toronto Centre Tenant Union
         </Heading>
       </Stack>
-      <Center height="5rem">
+{/*       <Center height="5rem">
         <Divider borderColor="white" orientation="vertical" />
       </Center>
       <Text fontSize="3xl" color="white">
         We're stronger together!
-      </Text>
+      </Text> */}
     </HStack>
   );
 }

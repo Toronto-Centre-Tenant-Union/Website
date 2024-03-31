@@ -1,21 +1,23 @@
 // app/page.tsx
 "use client";
 import {
+  Card,
+  CardBody,
+  CardHeader,
   Divider,
   HStack,
   Heading,
   Icon,
   Stack,
-  StackItem,
   Text,
 } from "@chakra-ui/react";
 import { FaInstagram } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import Header from "./Header";
-import riding_map from "./assets/riding_map.png";
 import styles from "./styles.module.css";
-import { Image, Link } from "@chakra-ui/next-js";
+import { Link } from "@chakra-ui/next-js";
 import { InstagramEmbed } from "react-social-media-embed";
+import EventDetails from "./events/EventDetails";
 
 export default function Page() {
   return (
@@ -26,36 +28,58 @@ export default function Page() {
         <Stack align="center" spacing="4rem">
           <div className={styles.separator} />
           <Stack textAlign="center" alignItems="center" spacing="2rem">
-            <Heading fontSize="6xl" color="white">
-              We are organizing
+            <Heading
+              fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+              color="white"
+            >
+              We are organizing for tenant rights and community power
             </Heading>
             <Divider borderColor="#FFF" />
-            <Stack align="center" spacing="2rem">
-              <Text fontSize="xl" color="white">
-                You can follow us on social media or email us to stay up to
-                date:
-              </Text>
-              <Stack
-                flexDirection="row"
-                alignItems="center"
-                textAlign="center"
-                spacing="2rem"
-              >
-                <Link
-                  href="https://www.instagram.com/to.centre.tenants/"
-                  isExternal
+            <Card maxW={"80%"}>
+              <CardHeader>
+                <Heading
+                  fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+                  color="black"
                 >
-                  <Icon as={FaInstagram} boxSize={16} color="white" />
-                </Link>
-                <Link href="mailto:to.centre.tenants@gmail.com" isExternal>
-                  <Icon as={MdOutlineMail} boxSize={16} color="white" />
-                </Link>
-              </Stack>
-            </Stack>
+                  Upcoming Events
+                </Heading>
+              </CardHeader>
+              <CardBody>
+                <EventDetails />
+              </CardBody>
+            </Card>
+            <Divider borderColor="#FFF" />
+            <Card maxW={"80%"}>
+              <CardHeader>
+                <Text fontSize="xl" color="black">
+                  You can follow us on social media or email us to stay up to
+                  date:
+                </Text>
+              </CardHeader>
+              <CardBody>
+                <Stack align="center" spacing="2rem">
+                  <Stack
+                    flexDirection="row"
+                    alignItems="center"
+                    textAlign="center"
+                    spacing="2rem"
+                  >
+                    <Link
+                      href="https://www.instagram.com/to.centre.tenants/"
+                      isExternal
+                    >
+                      <Icon as={FaInstagram} boxSize={16} color="black" />
+                    </Link>
+                    <Link href="mailto:to.centre.tenants@gmail.com" isExternal>
+                      <Icon as={MdOutlineMail} boxSize={16} color="black" />
+                    </Link>
+                  </Stack>
+
+                  <InstagramEmbed url="https://www.instagram.com/to.centre.tenants/" />
+                </Stack>
+              </CardBody>
+            </Card>
           </Stack>
-          <HStack justifyContent="space-between">
-            <InstagramEmbed url="https://www.instagram.com/to.centre.tenants/" />
-          </HStack>
         </Stack>
       </Stack>
     </div>

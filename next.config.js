@@ -24,6 +24,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/demos_survey",
+        destination: "https://forms.gle/jjyq4sCM5THg59AZA",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

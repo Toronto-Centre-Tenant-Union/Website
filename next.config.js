@@ -30,6 +30,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/45_balliol_survey",
+        destination: "https://forms.gle/pA7FkswzGZaNZyzCA",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

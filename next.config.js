@@ -36,6 +36,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/signup",
+        destination: "https://forms.gle/8c6AXfLTANdFWU1c7",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

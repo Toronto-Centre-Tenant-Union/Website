@@ -42,6 +42,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/45_balliol_rent_increases",
+        destination: "https://forms.gle/woMcddXv27CKFRU57",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

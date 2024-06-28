@@ -48,6 +48,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/137_isabella_survey",
+        destination: "https://forms.gle/FV3TPXUyZuB1TvSw8",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

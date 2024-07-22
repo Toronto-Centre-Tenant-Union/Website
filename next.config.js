@@ -54,6 +54,36 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/225_davisville_survey",
+        destination: "https://forms.gle/LApEFx7s6iQ67iJ46",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/40_alexander_survey",
+        destination: "https://forms.gle/ZdTQNSfbMVMUvxKD8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/50_alexander_survey",
+        destination: "https://forms.gle/HGwTWKXrcqL3Z3PP6",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/55_maitland_survey",
+        destination: "https://forms.gle/tk4MFrcFbi2DYoD2A",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/77_davisville_survey",
+        destination: "https://forms.gle/X7ZETNPDch7NMgre7",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

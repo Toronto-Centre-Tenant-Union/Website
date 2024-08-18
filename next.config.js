@@ -84,6 +84,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/222_esplanade_survey",
+        destination: "https://forms.gle/h6fko2A7zkgmXap7A",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

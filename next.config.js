@@ -90,6 +90,18 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/158_front_survey",
+        destination: "https://forms.gle/Fg9UYCyRnFPgBZaw8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/time_space_survey",
+        destination: "https://forms.gle/6ZmyhmsaenmscwHy7",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

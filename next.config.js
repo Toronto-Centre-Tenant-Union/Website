@@ -13,24 +13,6 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: "/water_survey",
-        destination: "https://forms.gle/EeMcHRrA5Mh8Z3L56",
-        permanent: false,
-        basePath: false,
-      },
-      {
-        source: "/water_meeting",
-        destination: "https://forms.gle/SPXewmdCq4YyKXKo7",
-        permanent: false,
-        basePath: false,
-      },
-      {
-        source: "/demos_survey",
-        destination: "https://forms.gle/jjyq4sCM5THg59AZA",
-        permanent: false,
-        basePath: false,
-      },
-      {
         source: "/45_balliol_survey",
         destination: "https://forms.gle/pA7FkswzGZaNZyzCA",
         permanent: false,
@@ -99,6 +81,42 @@ module.exports = {
       {
         source: "/time_space_survey",
         destination: "https://forms.gle/6ZmyhmsaenmscwHy7",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/crescent_town_survey",
+        destination: "https://forms.gle/eCgAReBaat2B6Ytt5",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/99_howard_survey",
+        destination: "https://forms.gle/89LRokJPGnQHCuog8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/135_rose_survey",
+        destination: "https://forms.gle/AekVgEoaX1Y5hWGr8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/565_sherbourne_survey",
+        destination: "https://forms.gle/9iFLLraGvAZSaKj28",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/670_parliament_survey",
+        destination: "https://forms.gle/4tcathTTXDFEqLkE8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/sherbourne_tenant_survey",
+        destination: "https://forms.gle/yfzaxzWBFfAyzkcM9",
         permanent: false,
         basePath: false,
       },

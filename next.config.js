@@ -120,6 +120,36 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/7_crescent_pl_survey",
+        destination: "https://forms.gle/4HJdm9mevX2sm6mPA",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/9_crescent_pl_survey",
+        destination: "https://forms.gle/SGqAveagkpcEaEks9",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/11_crescent_pl_survey",
+        destination: "https://forms.gle/UVUWwXzgDvrUgaUU8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/570_bay_survey",
+        destination: "https://forms.gle/fBqGyMaZmUSUVyDq6",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/55_gerrard_survey",
+        destination: "https://forms.gle/SBsmgurAAN9CHjiV7",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

@@ -228,6 +228,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/25_selby_survey",
+        destination: "https://forms.gle/FoD1TpsgnUbFMfXm8",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };

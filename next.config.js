@@ -234,6 +234,66 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/20_carlton_survey",
+        destination: "https://forms.gle/VietFN6KMqMqn3uF9",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/25_wood_survey",
+        destination: "https://forms.gle/EfHUg3C9pKvxJoEF7",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/66_isabella_survey",
+        destination: "https://forms.gle/PBiJveGUXZvsvhGH6",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/88_spadina_survey",
+        destination: "https://forms.gle/bpotAdPfyTMfYCQR8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/90_adelaide_survey",
+        destination: "https://forms.gle/Pmaq3ZRdJSMXAEtJ6",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/100_roehampton_survey",
+        destination: "https://forms.gle/vSeaMcTTkdsoH6fN7",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/100_spadina_survey",
+        destination: "https://forms.gle/Z4edGEtQ968p5dTD6",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/221_balliol_survey",
+        destination: "https://forms.gle/eLq9zNLhtHLHnTgG7",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/265_balliol_survey",
+        destination: "https://forms.gle/jR6wnSLVtH9vYudR8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/550_jarvis_survey",
+        destination: "https://forms.gle/ZWaNTvvHGNEAprM89",
+        permanent: false,
+        basePath: false,
+      }
     ];
   },
 };

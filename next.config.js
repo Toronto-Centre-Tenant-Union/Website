@@ -293,6 +293,24 @@ module.exports = {
         destination: "https://forms.gle/ZWaNTvvHGNEAprM89",
         permanent: false,
         basePath: false,
+      },
+      {
+        source: "/25_nicholas_survey",
+        destination: "https://forms.gle/57UQoVwhPYNRQaqF9",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/2304_weston_survey",
+        destination: "https://forms.gle/Y7CPKjcUoJByGuX39",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/235_bloor_survey",
+        destination: "https://forms.gle/kC7qHe4KhWCCTqjB8",
+        permanent: false,
+        basePath: false,
       }
     ];
   },

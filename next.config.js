@@ -311,7 +311,31 @@ module.exports = {
         destination: "https://forms.gle/kC7qHe4KhWCCTqjB8",
         permanent: false,
         basePath: false,
-      }
+      },
+      {
+        source: "/66_broadway_survey",
+        destination: "https://forms.gle/qdBYZ8BLMzGtNc428",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/134_lawton_survey",
+        destination: "https://forms.gle/XT3KLSryiBmJT6Ex8",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/310_tweedsmuir_survey",
+        destination: "https://forms.gle/K6g68Jwe5F4w77Z26",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/320_tweedsmuir_survey",
+        destination: "https://forms.gle/HawRcAwvRxmiKGzeA",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };
